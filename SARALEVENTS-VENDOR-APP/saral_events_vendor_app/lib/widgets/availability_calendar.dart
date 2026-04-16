@@ -414,7 +414,11 @@ class _AvailabilityCalendarState extends State<AvailabilityCalendar> {
               Widget slotsChecklist(Set<DaySlot> target, {Color? color}) {
                 Widget tile(DaySlot s) => CheckboxListTile(
                   value: target.contains(s),
-                  onChanged: (v) => setS(() { if (v == true) target.add(s); else target.remove(s); }),
+                  onChanged: (v) => setS(() { if (v == true) {
+                    target.add(s);
+                  } else {
+                    target.remove(s);
+                  } }),
                   title: Text(slotLabel(s)),
                   subtitle: Text(slotTimeLabel(s)),
                   dense: true,

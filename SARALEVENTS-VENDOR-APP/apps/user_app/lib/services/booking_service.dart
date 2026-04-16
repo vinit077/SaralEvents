@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import '../models/service_models.dart';
 import '../core/cache/simple_cache.dart';
 
 class BookingService {

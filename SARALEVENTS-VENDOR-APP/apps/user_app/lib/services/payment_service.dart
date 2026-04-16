@@ -44,7 +44,7 @@ class PaymentService {
       
       if (kDebugMode) {
         debugPrint('Processing payment:');
-        debugPrint('Amount: ₹${checkoutState.totalPrice} (${amountPaise} paise)');
+        debugPrint('Amount: ₹${checkoutState.totalPrice} ($amountPaise paise)');
         debugPrint('Items: ${checkoutState.items.length}');
         debugPrint('User: ${billingDetails.name} (${billingDetails.email})');
       }

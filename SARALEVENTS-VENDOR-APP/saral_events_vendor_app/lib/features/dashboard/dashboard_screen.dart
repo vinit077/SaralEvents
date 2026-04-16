@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import '../../core/ui/widgets.dart';
-import '../../core/ui/app_icons.dart';
 import '../bookings/booking_service.dart';
 
 class DashboardScreen extends StatefulWidget {

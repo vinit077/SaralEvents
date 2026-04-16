@@ -548,7 +548,7 @@ class _ServicesScreenState extends State<ServicesScreen> with TickerProviderStat
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        'Query: "${_query}"',
+                        'Query: "$_query"',
                         style: const TextStyle(color: Colors.grey),
                       ),
                       const SizedBox(height: 8),

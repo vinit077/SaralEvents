@@ -73,7 +73,7 @@ class _UserAvailabilityCalendarState extends State<UserAvailabilityCalendar> {
           .select('*')
           .eq('service_id', widget.serviceId)
           .limit(1);
-      print('Any availability data for this service: ${anyAvailability.length > 0 ? "YES" : "NO"}');
+      print('Any availability data for this service: ${anyAvailability.isNotEmpty ? "YES" : "NO"}');
       if (anyAvailability.isNotEmpty) {
         print('Sample availability record: ${anyAvailability.first}');
       }

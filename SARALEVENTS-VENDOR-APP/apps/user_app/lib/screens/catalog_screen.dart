@@ -45,7 +45,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
   double? _maxPrice;
   double? _currentMinPrice;
   double? _currentMaxPrice;
-  double _minRating = 0; // visual only, because we don't have ratings in schema
+  final double _minRating = 0; // visual only, because we don't have ratings in schema
 
   @override
   void initState() {

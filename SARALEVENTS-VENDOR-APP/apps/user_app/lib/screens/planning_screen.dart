@@ -54,10 +54,6 @@ class _PlanningScreenState extends State<PlanningScreen>
 
   
 
-  @override
-  void dispose() {
-    super.dispose();
-  }
 
   Future<void> _loadEvents() async {
     setState(() {

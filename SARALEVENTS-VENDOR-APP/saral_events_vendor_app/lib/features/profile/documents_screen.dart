@@ -5,7 +5,6 @@ import '../vendor_setup/vendor_service.dart';
 import '../vendor_setup/vendor_models.dart';
 import '../../core/theme/app_theme.dart';
 import 'package:flutter/foundation.dart';
-import 'package:photo_view/photo_view.dart';
 import 'package:pdfx/pdfx.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
